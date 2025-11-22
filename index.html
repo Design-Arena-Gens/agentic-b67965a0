@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Joyeux Anniversaire, TAHA ! ??</title>
+    <meta name="description" content="Une carte d'anniversaire interactive et festive pour TAHA." />
+    <meta property="og:title" content="Joyeux Anniversaire, TAHA !" />
+    <meta property="og:description" content="Une carte d'anniversaire interactive et festive pour TAHA." />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://agentic-b67965a0.vercel.app" />
+    <meta name="theme-color" content="#8b5cf6" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&family=Great+Vibes&display=swap" rel="stylesheet" />
+
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body>
+    <div id="background"></div>
+
+    <main class="card" role="main">
+      <div class="heading">
+        <h1><span class="sparkle">?</span> Joyeux Anniversaire, <span class="name">TAHA</span> ! <span class="sparkle">??</span></h1>
+        <p class="subtitle">Aujourd'hui, on c?l?bre <strong>toi</strong> ? que cette ann?e t'apporte joie, sant? et succ?s.</p>
+      </div>
+
+      <section class="message">
+        <p>
+          Que chaque instant de cette journ?e soit rempli de sourires, de rires et de belles surprises.
+          Continue d'illuminer le monde avec ta pr?sence.
+        </p>
+        <p class="signature">Avec toute mon amiti? ??</p>
+      </section>
+
+      <div class="actions">
+        <button id="confettiBtn" class="btn primary">Lancer les confettis</button>
+        <button id="wishBtn" class="btn ghost">Faire un v?u ?</button>
+      </div>
+
+      <div class="footer-note">Fait avec amour pour <strong>TAHA</strong> ? 2025</div>
+    </main>
+
+    <ul class="floaters" aria-hidden="true">
+      <li>??</li><li>??</li><li>??</li><li>??</li><li>??</li>
+    </ul>
+
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.9.3/dist/confetti.browser.min.js" integrity="sha256-ypJ1D0lZfijy2WR3n5C5cmg7uJ9p0nZ5kqghZ6gZ2qA=" crossorigin="anonymous"></script>
+    <script src="/script.js"></script>
+  </body>
+</html>
